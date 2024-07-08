@@ -1,0 +1,130 @@
+body{font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.login-signup{
+   display: flex;
+   flex-direction:row;
+}
+#login{
+    width: 100px;
+    height:40px;
+    background-color: black;
+    color: white;
+    margin-right: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+}
+#signup{cursor: pointer;
+    border: 1px solid black;
+    width:100px;
+    height:40px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+
+body{
+    background-color: #F2DEDF;
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    align-items: center;
+}
+main{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+.topleft, .topright, .bottomleft, .bottomright{
+    position: absolute;
+}
+
+.topleft{
+    left:1px;
+    top:20%;
+}
+.bottomleft{
+    bottom: 20%;
+    left:0px;
+}
+.bottomright{
+bottom:5px;
+right:0px;
+}
+.topright{
+right:0px;
+top:30%;
+}
+.middle, .right{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap:35px;
+}
+.right button{
+    width:70px;
+    height: 30px;
+    border:2px solid black;
+    background: transparent;
+    cursor: pointer;
+}
+.container{
+    display:flex;
+    flex-direction: row;
+    width:70vw;
+    padding: 20px 0px ;
+    justify-content: space-between;    
+    gap:30px;
+}
+
+.textcontainer{
+    width:60%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.textcontainer p{
+    display: flex;
+    font-size: 17px;
+    width:60%;
+}
+
+h2{ 
+    font-size: 55px;
+}
+
+.imglanding{
+    position: relative;
+}
+
+
+.imglanding .landimg{
+  width:100%;
+  margin:10px;
+}
+.landingimgleft, .landingimgright{
+    position: absolute;
+}
+.landingimgleft{
+   top:30%;
+   left:-7%;
+}
+.landingimgright{
+    top:10%;
+    right:-7%;
+}
+
+
+#Shop-now{
+    width:40%;
+    height:40px;
+    background-color: black;
+    color:white;
+    cursor: pointer;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width", initial-scale="1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="navbar.css">
+</head>
+<body>
+   <nav class="navbar">
+    <div class="left"><h3>MeShop</h3></div>
+    <ul class="right">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="login.html"> Login</a></li>
+        <li><a href="signup.html">Signup</a></li>
+        <li><a>My Cart</a></li>
+        <li><a>Profile</a></li>
+    </ul>
+</nav> 
+<main>
+    <img src="img/halfbox.svg" class="topleft">
+        <img src="img/halfbox.svg" class="bottomleft">
+        <img src="img/halfbox.svg" class="topright">
+        <img src="img/halfbox.svg" class="bottomright">
+        
+    <div class="container">
+        <div class="textcontainer">
+            <h2>The Best Store To <br> Shop Online <br>MeShop</h2>
+                <div class="login-signup"><button id="login">Login</button>
+                    <button id="signup">Signup</button>
+                            
+            </div>
+        
+        </div>
+        <div class="imglanding">
+            <img src="img/boxcomplet.svg" class="landingimgleft">
+            <img src="img/boxcomplet.svg" class="landingimgright">
+        <img src="img/landingpageimg.svg" class="landimg">
+        </div>
+    </div>
+   
+
+ <!--      
+<div class="leftcontainer">
+    <h1>MeShop</h1>
+    <div class="login-signup"><button id="login">Login</button>
+        <button id="signup">Signup</button>
+    </div>
+    </div> -->
+   </main>
+<script>
+    document.getElementById('login').addEventListener('click',()=>{
+        window.location.href='login.html';
+    })
+    document.getElementById('signup').addEventListener('click',()=>{
+        window.location.href='signup.html';
+    })
+
+</script>
+</body>
+</html>
